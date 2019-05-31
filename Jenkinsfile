@@ -1,6 +1,6 @@
 node {
 	   environment {
-	     PATH = 'C:\\Program Files\\Git\\bin'
+	     PATH = 'C:\\Program Files\\Git\\bin\\git.exe'
 	   stage('SCM Checkout'){
 	     git 'https://github.com/ismehene/HelloWorld1'
 	   }
