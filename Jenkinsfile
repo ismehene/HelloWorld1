@@ -20,5 +20,5 @@ node {
 	   } }
            stage ('Deployments_test'){
 		   steps {
-			   sh "cp **/target/*.war 'C:\\Program Files\\Apache Software Foundation\\Tomcat 8.5_Tomcat84\\tomcat-test\\webapps'"
+			   sh "cp **/target/*.war C:\\Program Files\\Apache Software Foundation\\Tomcat 8.5_Tomcat84\\tomcat-test\\webapps"
 	 } } 
