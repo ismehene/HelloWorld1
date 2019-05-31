@@ -12,10 +12,6 @@ node {
 	   }post { success { echo 'Now Archiving...' archiveArtifacts artifacts : '**/target/*.war'
   }
 		 }
-	   stage('Email Notification'){
-              mail bcc: '', body: '''Hi Welcome to jenkins email alerts
-              Thanks
-              ismehene''', cc: '', from: '', replyTo: '', subject: 'Jenkins Job', to: 'ismehene.chaouch@gmail.com'
-          }
+	  
 	   } }
           
