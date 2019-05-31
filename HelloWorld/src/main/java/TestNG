@@ -1,0 +1,7 @@
+<suite name="Sample Suite">
+    <test name="Learning jenkins">
+        <classes>
+            <class name="testFonctionnel.test"></class>
+        </classes>
+    </test>
+</suite>
